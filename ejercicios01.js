@@ -23,5 +23,17 @@ for( valor in todosLosDivs){
         var texto = document.createTextNode(todosLosDivs[valor].textContent);
         parrafo.append(texto);
         document.querySelector('#seccion').prepend(parrafo);
+
+
     }
 }
+
+// conseguir elementos por su clase css
+
+var divRojo = document.getElementsByClassName("rojo"); 
+var divAmarillo = document.getElementsByClassName('amarillo');
+var divAzul = document.getElementsByClassName('azul');
+
+divAzul[0].style.background = "blue";
+divAmarillo[0].style.background = "yellow"
+divRojo[0].style.background = "red"
