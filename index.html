@@ -1,23 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ejercicio03.js"></script>
     <title>Document Object Model DOM</title>
 </head>
-<body>
-    <section id="seccion">
-        <hr>
-    </section>
-    
-    <div id="caja"> Este es mi sitio web</div>
-    <div class="amarillo">Primer Div 1 </div>
-    <div class="azul">Primer Div 2</div>
-    <div class="rojo">Primer Div 3</div>
-    
 
-   <!-- script -->
+<body>
+    <!-- <section id="seccion">
+        <h1>HOLA ME CAMBIO CADA Tiempo</h1>
+        <hr>
+        <button id="boton">Presioname</button>
+        <button id="start">start</button>
+        <button id="stop">stop</button>
+        <br>
+        <div id="caja"> Este es mi sitio web</div>
+        <div class="amarillo">Primer Div 1 </div>
+        <div class="azul">Primer Div 2</div>
+        <div class="rojo">Primer Div 3</div>
+        BOTON DE EVENTO
+    </section> -->
+
+    <div class="box">
+        <form id = "form" action="#" onsubmit=" return false">
+            <label for='nombre' >Nombre</label> <br/>
+            <input type="text" name="name" id="name" placeholder="Tu nombre" /><br/>
+            
+            <label for='apellido'>apellido</label><br/>
+            <input type="text" id="apellido" placeholder="Tu apellido" name="apellido" /><br/>
+            
+            <label for='edad'>Edad</label><br/>
+            <input type="text" id="edad" placeholder="Tu Edad" name="edad" /><br/>
+            <input type="submit" value="Enviar" />
+        </form>
+    </div>
+    <div class="box dashed">
+        <h3> Informacion del Usuario</h3> 
+        <hr>
+    </div>
+
+    <button id="mostrar">Mostrar</button>
+
+    <section id="seccion">
+
+    </section>
+    <!-- script -->
+    <!--  >
+    <script src="ejercicios-bom.js"></script>
     <script src="ejercicios01.js"></script>
+    <script src="eventos.js"></script>
+    <script src="timer.js"></script> -->
 </body>
+
 </html>
